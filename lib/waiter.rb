@@ -30,7 +30,7 @@ class Waiter
   best_tipped_meal.customer
   end
   
-  def worst_tipper 
+  def worst_tipped_meal
     worst_tipped_meal = meals.min 
     worst_tipped_meal.meal
   end
